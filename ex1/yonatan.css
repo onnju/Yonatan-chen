@@ -1,0 +1,88 @@
+ /* 1 כותרות בצבע אחיד*/
+ h1,h2,h3,h4 { 
+	color: purple; 
+	font-size: 40px; 
+	text-align: center;
+   }   
+  /* 2 פסקאות בצבע*/
+   p { 
+	color: rgb(63, 60, 63); 
+	font-size: 40px; 
+	text-align: center;
+   }     
+
+ p,li,ul { 
+	color: rgb(63, 60, 63); 
+	font-size: 20px; 
+	text-align: center;
+   }     
+   table
+
+   {
+   
+   margin-right: auto;
+   font-size: 40px;
+   margin-left: auto;
+   
+   }  
+   
+  /*3 פונט */
+   p {
+	font-family: verdana;
+	font-size: 20px;
+  }  
+
+  iframe,image {
+	display: block;
+	margin: 0 auto;
+ }  
+
+ /*4 ספרייה לרקע*/
+ @import url(https://fonts.googleapis.com/css?family=Syncopate);
+
+ body { 
+   background: rgb(151, 210, 224);
+   text-align: center;
+   padding: 120px 20px;
+ }
+ 
+ /*5 שלט מגניב אני לא יודע איך לקרוא לזה*/
+ h1 {
+   display: inline-block;
+   font-size: 80px;
+   line-height: 0.9;
+   padding: 20px;
+   font-family: 'Syncopate', sans-serif;
+   text-transform: uppercase;
+   background: radial-gradient(
+     circle farthest-corner at center center,
+     rgb(92, 5, 5),
+     #111
+   ) no-repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+/*6 עיצוב של רקע מתחלף */
+ body {
+	background: linear-gradient(-45deg, #ee7752, #e7dc3c, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*7 עיצוב טבלה */
+th,tr,td { 
+	color: purple; 
+	font-size: 40px; 
+	text-align: center;
+   }   
